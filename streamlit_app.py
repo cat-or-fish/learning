@@ -10,5 +10,5 @@ load_css(css_path)
 
 st.write("Das ist mein Lernprojekt")
 
-with st.container():
+with st.container(key="green"):
     st.write("text inside the container")
