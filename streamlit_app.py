@@ -13,3 +13,4 @@ st.write("Das ist mein Lernprojekt")
 with st.container(key="green"):
     st.write("text inside the container")
 
+st.button("Click me", key="blue")
