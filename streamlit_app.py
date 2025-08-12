@@ -10,7 +10,7 @@ load_css(css_path)
 
 st.write("Das ist mein Lernprojekt")
 
-st.container(key="green"):
+st.container(key="green")
     st.write("text inside the container")
 
 st.button("Click me", key="blue")
